@@ -12,7 +12,7 @@ function style(){
 
 function watcher(){
   browserSync({
-    proxy:"localhost/test-gulp",
+    proxy:"localhost/test-subskill",
     baseDir: "./",
   });
 
