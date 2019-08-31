@@ -1,0 +1,14 @@
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth; }
+
+body {
+  overflow-x: hidden; }
+
+main.container-fluid {
+  padding: 0; }
+
+.slide {
+  height: 90vh;
+  margin-top: 10px;
+  margin-bottom: 10px; }

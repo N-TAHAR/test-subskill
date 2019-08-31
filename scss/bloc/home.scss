@@ -1,0 +1,19 @@
+.home{
+  position: relative;
+  background: url("./../img/Landing.png");
+  background-size: cover;
+  
+  & .brand{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    width: 130px;
+  }
+
+  & .scroller{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+}

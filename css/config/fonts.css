@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap");
+@font-face {
+  font-family: "Gotham Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gotham Light"), url("./../fonts/GothamLight.woff") format("woff"); }
+
+@font-face {
+  font-family: "Gotham Light Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gotham Light Italic"), url("./../fonts/GothamLightItalic.woff") format("woff"); }
+
+@font-face {
+  font-family: "Gotham Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gotham Medium"), url("./../fonts/GothamMedium.woff") format("woff"); }
+
+@font-face {
+  font-family: "Gotham Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gotham Medium"), url("./../fonts/GothamMedium_1.woff") format("woff"); }
+
+@font-face {
+  font-family: "Gotham Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gotham Bold"), url("./../fonts/GothamBold.woff") format("woff"); }
+
+@font-face {
+  font-family: "Gotham Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gotham Bold"), url("./../fonts/Gotham-Bold.woff") format("woff"); }
+
+@font-face {
+  font-family: "Gotham Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gotham Bold Italic"), url("./../fonts/GothamBoldItalic.woff") format("woff"); }
+
+@font-face {
+  font-family: "Gotham Black Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gotham Black Regular"), url("./../fonts/Gotham-Black.woff") format("woff"); }
+
+@font-face {
+  font-family: "Gotham Light Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gotham Light Regular"), url("./../fonts/Gotham-Light.woff") format("woff"); }
+
+@font-face {
+  font-family: "Gotham Thin Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gotham Thin Regular"), url("./../fonts/Gotham-Thin.woff") format("woff"); }
+
+body {
+  font-family: "Gotham Medium", sans-serif; }
+
+.gotham-bold {
+  font-family: "Gotham Bold", sans-serif; }
+
+.gotham-light {
+  font-family: "Gotham Light", sans-serif; }
+
+.roboto {
+  font-family: 'Roboto', sans-serif; }
+
+.roboto-light {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; }
+
+.roboto-bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700; }
+
+@media (max-width: 720px) {
+  h1 {
+    font-size: 1.5rem; } }

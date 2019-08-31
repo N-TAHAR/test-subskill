@@ -1,0 +1,53 @@
+.slide-three {
+  background: url("./../img/slide-jaune.png");
+  background-size: cover;
+}
+
+.custom-control-label {
+  &::after {
+    width: 2rem;
+    height: 2rem;
+    top: -0.125rem;
+    left: -3rem;
+    background: none;
+    border: 1px solid #ffb700;
+    cursor: pointer;
+  }
+
+  &::before {
+    width: 2rem;
+    height: 2rem;
+    top: -0.125rem;
+    left: -3rem;
+    cursor: pointer;
+  }
+}
+
+.custom-control {
+  padding-top: 1rem;
+  padding-left: 3.5rem;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #ffb700;
+  background-color: #ffb700;
+}
+
+.custom-checkbox {
+  & .custom-control-label::before {
+    border-radius: 0;
+  }
+  & .custom-control-input:checked ~ .custom-control-label::after {
+    background-image: initial;
+  }
+}
+
+.custom-radio {
+  & .custom-control-label::before {
+    border-radius: 0;
+  }
+  & .custom-control-input:checked ~ .custom-control-label::after {
+    background-image: initial;
+  }
+}
