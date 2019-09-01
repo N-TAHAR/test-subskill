@@ -88,7 +88,7 @@ if (isset($_POST['submit'])) {
       <img class="scroller" src="./img/Scroller.png" alt="scroller image" />
     </a>
   </div>
-  <a class="text-decoration-none" data-toggle="collapse" href="#collapseSlideOne" role="button" aria-expanded="false" aria-controls="collapseSlideOne">  
+  <a class="text-decoration-none" data-toggle="collapse" href="#collapseSlideOne" role="button" aria-expanded="false" aria-controls="collapseSlideOne">
     <div id="slide-one" class="slide slide-one d-flex align-items-center justify-content-center">
       <h1 class="text-center text-light gotham-bold">
         QU’EST-CE QUE<br />
